@@ -25,7 +25,7 @@ Armv7(means armhf) might work, but is not tested.
 Others are unsupported.
 
 ```bash
-$ git clone https://github.com/kmahyyg/ztncui-aio
+$ git clone https://github.com/roxleopardo/ztncui-aio
 $ docker build . --build-arg OVERLAY_S6_ARCH=<one of aarch64,x86_64>
 ```
 
