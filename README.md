@@ -26,7 +26,7 @@ Others are unsupported.
 
 ```bash
 $ git clone https://github.com/roxleopardo/ztncui-aio
-$ docker build . --build-arg OVERLAY_S6_ARCH=<one of aarch64,x86_64>
+$ docker build . --build-arg OVERLAY_S6_ARCH=<one of aarch64,x86_64> -t smsolucoes/ztncui-aio
 ```
 
 Change `NODEJS_MAJOR` variable in Dockerfile to use different nodejs version.
